@@ -1,0 +1,67 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body,
+html {
+ 
+margin: 0;
+padding: 0;
+font-family: "Pacifico", cursive;
+height: 100%;
+}
+
+.container {
+background: linear-gradient(135deg, #8a2be2, #4169e1);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+.content {
+text-align: center;
+background-color: #fff;
+padding: 2rem;
+border-radius: 25px;
+min-width: 400px;
+/*width: 90%*/;
+}
+h1{
+color: bisque;
+background-color: #532020;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+p{
+color: #666;
+margin-bottom: 20px;
+}
+.logo {
+width: 350px;
+height: 150px;
+object-fit: contain;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+input[type="email"]{
+padding: 0.5rem;
+border-radius: 5px;
+border: 1px solid #ccc;
+margin-bottom: 1rem;
+}
+button{
+padding:0.5rem;
+background-color: #5310c7;
+color: white;
+border-radius: 10px;
+box-shadow:0 4px 6px rgba(0,0,0,0.26);
+cursor: pointer;
+transition: background-color 0.4s
+ease-in-out;
+}
+button:hover{
+background-color: #121141;
+}
